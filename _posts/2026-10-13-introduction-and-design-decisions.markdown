@@ -72,7 +72,7 @@ Importantly, as the verification uses asymmetric cryptography, Gwydion's public 
 
 As the platform works on cryptographic keys, this can allow identity documents or "visa" (event) documents to be issued by one organization and chosen to be accepted by another organization.
 
-A furry convention organizer in Detroit, Michigan, could partner with a smaller organization in Detroit's metro area to issue an event document valid for a year. Each organization can issue that document based on their specifications and independent of the other organization. At events where those kinds of documents are valid, the onl thing needed for a validator to check validity is the public keys that issued the documents from both organizations.
+A furry convention organizer in Detroit, Michigan, could partner with a smaller organization in Detroit's metro area to issue an event document valid for a year. Each organization can issue that document based on their specifications and independent of the other organization. At events where those kinds of documents are valid, the only thing needed for a validator to check validity is the public keys that issued the documents from both organizations.
 
 ### No leak of personally-identifiable information (PII)
 
