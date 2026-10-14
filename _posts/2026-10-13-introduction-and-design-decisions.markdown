@@ -68,6 +68,12 @@ Convention staff and volunteers can continue to resume operations as they were, 
 
 Importantly, as the verification uses asymmetric cryptography, Gwydion's public keys can simply be downloaded locally into the validating device (like a convention-provided smartphone) at the start of the day. This allows badge verification to stay in effect independent of the performance of (usually-very-spotty) convention center and hotel Wi-Fi.
 
+### Identity document federation
+
+As the platform works on cryptographic keys, this can allow identity documents or "visa" (event) documents to be issued by one organization and chosen to be accepted by another organization.
+
+A furry convention organizer in Detroit, Michigan, could partner with a smaller organization in Detroit's metro area to issue an event document valid for a year. Each organization can issue that document based on their specifications and independent of the other organization. At events where those kinds of documents are valid, the onl thing needed for a validator to check validity is the public keys that issued the documents from both organizations.
+
 ### No leak of personally-identifiable information (PII)
 
 While Gwydion _can_ store personally-identifiable information (<abbr>PII</abbr>) for organizations that may not have their own identity management system, ideally Gwydion will have no further need of any information about a person after a document has been signed and printed. All the information needed for verification is in the printed document itself and no storage of that information is necessary.
