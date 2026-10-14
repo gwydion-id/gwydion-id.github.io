@@ -19,9 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Gwydion
-email: email@sentamal.in
 description: >- # this means to ignore newlines until "baseurl:"
-  A free/open-source platform for identity document management and validation.
+  Validate and manage identity documents.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gwydion-id.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: gwydion-id
@@ -30,6 +29,19 @@ github_username: gwydion-id
 theme: minima
 plugins:
   - jekyll-feed
+
+# Minima settings
+minima:
+  show_excerpts: true
+  social_links:
+    - title: GitHub
+      icon: github
+      url: https://github.com/gwydion-id
+
+# Author settings
+author:
+  name: Gwydion Project
+  email: "email@sentamal.in"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
